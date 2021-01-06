@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jan  3 12:52:51 2021
-ANN
-@author: ttek2642
+ANN (Artificial Neural Network) to predict the Net hourly electrical energy output.
+The dataset contains 9568 data points collected from a Combined 
+Cycle Power Plant over 6 years (2006-2011), when the plant was set to work with full load.
+
+@author: Tahereh Tekieh
 """
 
 import numpy as np
