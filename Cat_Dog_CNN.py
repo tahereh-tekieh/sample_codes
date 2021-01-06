@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jan  3 19:30:42 2021
-CNN (Conv. Neural Network)to identify dog and cats
+CNN (Conv. Neural Network)to identify dog and cats in an image
 @author: Tahereh Tekieh
 """
 import numpy as np
