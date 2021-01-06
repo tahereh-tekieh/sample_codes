@@ -15,14 +15,14 @@ train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale = 1./255
                                    shear_range = 0.2,
                                    zoom_range = 0.2,
                                    horizontal_flip = True)
-training_set = train_datagen.flow_from_directory('/Users/ttek2642/Downloads/Section 40 - Convolutional Neural Networks (CNN)/dataset/training_set',
+training_set = train_datagen.flow_from_directory('training_set',
                                                  target_size = (64, 64),
                                                  batch_size = 32,
                                                  class_mode = 'binary')
 
 # trscaling the test images
 test_datagen =  tf.keras.preprocessing.image.ImageDataGenerator(rescale = 1./255)
-test_set = test_datagen.flow_from_directory('/Users/ttek2642/Downloads/Section 40 - Convolutional Neural Networks (CNN)/dataset/test_set',
+test_set = test_datagen.flow_from_directory('test_set',
                                             target_size = (64, 64),
                                             batch_size = 32,
                                             class_mode = 'binary')
