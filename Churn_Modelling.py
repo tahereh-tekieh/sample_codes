@@ -13,7 +13,7 @@ import tensorflow as tf
 # Part 1 - Data Preprocessing
 
 # load and read the data
-data = pd.read_csv ('/Users/ttek2642/Downloads/Machine Learning A-Z (Codes and Datasets) 13/Part 8 - Deep Learning/Section 39 - Artificial Neural Networks (ANN)/Python/Churn_Modelling.csv')
+data = pd.read_csv ('Churn_Modelling.csv')
 x = data.iloc[:,3:-1].values
 y = data.iloc[:,-1].values
 
