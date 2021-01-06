@@ -5,7 +5,7 @@ Created on Tue Jan  5 20:08:04 2021
 Breast Cancer Database
 XGBOOST method to predict the classification of a 
 breast tumor based on its characteristics.
-@author: ttek2642
+@author: Tahereh Tekieh
 """
 # import the libraries
 import numpy as np
