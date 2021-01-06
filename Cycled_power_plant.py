@@ -14,7 +14,7 @@ import tensorflow as tf
 # Part 1 - Data Preprocessing
 
 # load and read the data
-data = pd.read_excel('/Users/ttek2642/Downloads/ANN/Dataset/Folds5x2_pp.xlsx')
+data = pd.read_excel('Folds5x2_pp.xlsx')
 x = data.iloc[:,:-1].values
 y = data.iloc[:,-1].values
 
