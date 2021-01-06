@@ -4,7 +4,7 @@
 Created on Sat Jan  2 21:28:03 2021
 ANN (Artificial Neural Network) to predict which customers of a finanacial 
 institute is likely to exit.
-@author: ttek2642
+@author: Tahereh Tekieh
 """
 
 import numpy as np
